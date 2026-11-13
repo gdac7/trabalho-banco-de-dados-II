@@ -56,7 +56,6 @@ Os testes ficam em `testes/` e seguem o mesmo padrão:
 psql -h localhost -U chinook -d chinook -f testes/<arquivo>.sql
 ```
 
-> Atenção: o teste da **Q2** (remover índices) roda dentro de `BEGIN; ... ROLLBACK;`, para não apagar de vez a chave primária de `track` (e as FKs que apontam para ela), o que alteraria o resultado das demais questões.
 
 ## 6. Salvar a saída em arquivo
 
