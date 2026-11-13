@@ -45,16 +45,10 @@ SELECT count(*) FROM track;   -- 3503
 ## 5. Rodar os scripts das questões
 
 ```bash
-psql -h localhost -U chinook -d chinook -f src/<arquivo>.sql
+psql -h localhost -U chinook -d chinook -f parte1/<arquivo>.sql
 ```
 
-Execute primeiro os arquivos da Parte 1 (`parte1_q1` a `parte1_q5`) e depois os da Parte 2. A Q5 é dividida em quatro arquivos numerados (`parte1_q5_1` a `parte1_q5_4`), que devem rodar nessa ordem. Para recomeçar do zero, repita os passos 3 e 4.
-
-Os testes ficam em `testes/` e seguem o mesmo padrão:
-
-```bash
-psql -h localhost -U chinook -d chinook -f testes/<arquivo>.sql
-```
+Os arquivos ficam em `parte1/` e `parte2/`, um por questão (`questaoN_...`), junto com os seus testes. Execute primeiro a Parte 1 e depois a Parte 2. A Q5 tem quatro arquivos que devem rodar nesta ordem: `questao5_estruturaDTE`, `questao5_functions_triggers`, `questao5_status_invoice` e `questao5_situacao_customer`; os testes (`questao5_teste_status` e `questao5_teste_situacao`) vêm depois. Para recomeçar do zero, repita os passos 3 e 4.
 
 
 ## 6. Salvar a saída em arquivo

@@ -1,6 +1,6 @@
 -- Observações importantes:
 -- Esse script deve ser executado pelo usuário chinook
--- OBS: Reexecução: apaga e recria as tabelas do DTE (os estados e transições cadastrados são perdidos); depois dele, rode de novo os arquivos q5_3 e q5_4
+-- OBS: Reexecução: apaga e recria as tabelas do DTE (os estados e transições cadastrados são perdidos); depois dele, rode de novo questao5_status_invoice e questao5_situacao_customer
 
 DROP TRIGGER IF EXISTS trg_invoice_status ON invoice;
 DROP TABLE IF EXISTS tabela_transicao;

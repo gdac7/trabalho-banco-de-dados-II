@@ -1,6 +1,6 @@
 -- Observações importantes:
 -- Esse script deve ser executado pelo usuário chinook
--- Reexecução: só funciona após rodar o q5_1 de novo; senão os INSERTs no DTE falham por chave duplicada
+-- Reexecução: só funciona após rodar questao5_estruturaDTE de novo; senão os INSERTs no DTE falham por chave duplicada
 
 /* DTE de invoice.status
 	
