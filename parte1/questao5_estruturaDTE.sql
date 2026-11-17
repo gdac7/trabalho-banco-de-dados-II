@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 -- OBS: Reexecução: apaga e recria as tabelas do DTE (os estados e transições cadastrados são perdidos); depois dele, rode de novo questao5_status_invoice e questao5_situacao_customer
 

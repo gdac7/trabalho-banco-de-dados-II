@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 
 -- Teste executado em transação (BEGIN ... ROLLBACK) para comprovar a remoção dos índices

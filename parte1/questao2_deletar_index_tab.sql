@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 
 CREATE OR REPLACE PROCEDURE remover_indices_tabela(p_tabela text)

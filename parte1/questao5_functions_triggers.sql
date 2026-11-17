@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 
 DROP FUNCTION IF EXISTS validar_estado;

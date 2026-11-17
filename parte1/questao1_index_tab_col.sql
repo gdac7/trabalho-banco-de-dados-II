@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 
 SELECT

@@ -1,4 +1,4 @@
--- Observações importantes:
+-- Observações:
 -- Esse script deve ser executado pelo usuário chinook
 -- Uso: SELECT * FROM gerar_ddl('public');
 
