@@ -1,0 +1,24 @@
+Observações:
+Este arquivo contém apenas a descrição textual das regras semânticas (Questão 1 da Parte 2).
+Não há comandos para executar: as regras são implementadas nas demais questões da Parte 2.
+
+Regras Semânticas para a parte 2:
+
+RS1 - Um funcionário (employee) não pode ganhar um salário maior que o do seu supervisor (reports_to).
+Consequentemente, o salário de um supervisor também não pode ser alterado para um valor menor que o
+de qualquer um dos seus subordinados diretos. OBS: como o Chinook não contém a coluna salary em
+employee, foram feitas modificações no esquema para comportar a regra.
+
+RS2 - Um cliente (customer) só pode ter como funcionário associado a ele (support_rep_id) um funcionário
+que tenha o title de “Sales Support Agent”.
+
+RS3 - Um cliente (customer) não pode comprar a mesma faixa de música (track) mais de uma vez, pois a
+faixa é uma mídia digital. Ou seja, não podem existir duas linhas de invoice_line com a mesma faixa em
+invoices pertencentes ao mesmo cliente.
+
+RS4 - Uma mesma playlist não pode conter mais do que 500 faixas de música.
+
+RS5 - O valor total de uma fatura (invoice) deve ser sempre igual à soma de unit_price * quantity de
+todas as linhas (invoice_line) relacionadas a essa fatura. Uma fatura recém-criada, sem linhas, possui
+total igual a 0, e o total não pode ser alterado manualmente, apenas pelo próprio sistema a partir das
+alterações nas linhas.
