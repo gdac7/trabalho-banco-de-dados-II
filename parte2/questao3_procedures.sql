@@ -1,6 +1,5 @@
 -- Observações:
 -- Esse script deve ser executado pelo usuário chinook
--- Parte 2 - Questão 3 (PostgreSQL)
 -- Procedimentos armazenados que validam as regras semânticas RS1 a RS4 (questao1_regras_semanticas).
 -- A RS5 (total da invoice) é garantida por triggers na Q4.
 --

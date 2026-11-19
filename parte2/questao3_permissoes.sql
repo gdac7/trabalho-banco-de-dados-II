@@ -1,6 +1,5 @@
 -- Observações:
 -- Esse script deve ser executado pelo usuário chinook, depois de questao3_criar_usuario e questao3_procedures
--- Parte 2 - Questão 3 (PostgreSQL)
 -- Mecanismo de permissões: o usuário chinook_app consulta qualquer tabela, mas só altera os dados
 -- das regras RS1 a RS4 chamando os procedimentos de questao3_procedures.
 

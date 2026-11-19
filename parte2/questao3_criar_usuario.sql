@@ -2,7 +2,6 @@
 -- Esse script deve ser executado pelo usuário postgres (superusuário), conectado ao banco chinook:
 --   psql -h localhost -U postgres -d chinook -f parte2/questao3_criar_usuario.sql
 -- O usuário chinook não tem permissão para criar usuários (CREATEROLE), por isso este passo fica separado.
--- Parte 2 - Questão 3 (PostgreSQL)
 
 -- Recria o usuário do zero, para o script poder ser executado mais de uma vez.
 -- DROP OWNED remove os privilégios concedidos a ele neste banco; sem isso o DROP ROLE falha.

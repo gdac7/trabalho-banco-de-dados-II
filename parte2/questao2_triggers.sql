@@ -1,6 +1,5 @@
 -- Observações:
 -- Esse script deve ser executado pelo usuário chinook
--- Parte 2 - Questão 2 (PostgreSQL)
 
 -- Ajuste de esquema para RS1 (compatível com a Q3)
 ALTER TABLE employee ADD COLUMN IF NOT EXISTS salary NUMERIC(10,2) CHECK (salary > 0);

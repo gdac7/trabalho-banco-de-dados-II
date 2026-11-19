@@ -1,6 +1,5 @@
 -- Observações:
 -- Esse script deve ser executado pelo usuário chinook
--- Parte 2 - Questão 4 (PostgreSQL)
 -- Regra: invoice.total = SUM(invoice_line.unit_price * invoice_line.quantity)
 
 
